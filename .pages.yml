@@ -1,0 +1,46 @@
+
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: articles
+    label: Artykuły
+    type: file
+    path: data/articles.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Tytuł artykułu
+        type: string
+        required: true
+
+      - name: category
+        label: Rubryka
+        type: string
+        required: true
+
+      - name: author
+        label: Autor
+        type: string
+
+      - name: date
+        label: Data publikacji
+        type: date
+
+      - name: excerpt
+        label: Krótki opis
+        type: text
+
+      - name: cover
+        label: Zdjęcie główne
+        type: image
+
+      - name: body
+        label: Treść artykułu
+        type: rich-text
+
+      - name: featured
+        label: Wyróżnij na stronie głównej
+        type: boolean
