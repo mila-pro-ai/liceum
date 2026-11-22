@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Głos Liceum — internetowa gazeta społeczności XXIV Liceum Ogólnokształcącego w Krakowie.">
+  <title>Głos Liceum | XXIV LO w Krakowie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="Głos Liceum — strona główna">
+      <img src="assets/logo-xxiv-lo.jpg" alt="Logo XXIV Liceum Ogólnokształcącego">
+      <span><strong>GŁOS LICEUM</strong><small>XXIV LO im. Jana Pawła II w Krakowie</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#aktualnosci">Aktualności</a><a href="#rubryki">Rubryki</a><a href="#sonda">Sonda</a><a href="#galeria">Galeria</a><a href="#redakcja">Redakcja</a>
+      <a class="nav-submit" href="https://pagescms.org/" target="_blank" rel="noreferrer">Dodaj materiał <span>↗</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="yellow-dot"></span> INTERNETOWA GAZETA SZKOLNA</p>
+      <h1>Nasza szkoła.<br><em>Nasze historie.</em></h1>
+      <p class="hero-lead">Miejsce, w którym uczniowskie pomysły, pasje i spojrzenie na świat stają się częścią wspólnej opowieści.</p>
+      <a class="button-primary" href="#aktualnosci">Czytaj najnowsze <span>→</span></a>
+    </div>
+    <div class="hero-art" aria-label="Dekoracyjna kompozycja w barwach szkoły">
+      <div class="art-card art-blue"><span>XXIV</span><b>GŁOS<br>LICEUM</b><small>KRAKÓW · 2026</small></div>
+      <div class="art-yellow"></div><div class="art-ring"></div>
+      <span class="art-caption">TWORZYMY<br>RAZEM</span>
+    </div>
+  </section>
+
+  <section class="section wrap" id="aktualnosci">
+    <div class="section-heading"><div><p class="eyebrow">CO SŁYCHAĆ W LICEUM</p><h2>Najnowsze <em>historie</em></h2></div><a class="text-link" href="#wszystkie">Wszystkie materiały →</a></div>
+    <div class="featured-grid" id="featured"></div>
+    <div class="article-grid" id="articles"></div>
+  </section>
+
+  <section class="categories-band" id="rubryki">
+    <div class="wrap">
+      <p class="eyebrow">ODKRYWAJ TEMATY</p><h2>Co Cię <em>interesuje?</em></h2>
+      <div class="category-grid" id="categories"></div>
+    </div>
+  </section>
+
+  <section class="section wrap two-col" id="sonda">
+    <div class="poll-panel">
+      <p class="eyebrow">GŁOS UCZNIÓW</p><h2>Nasza szkolna <em>sonda</em></h2>
+      <p class="muted" id="poll-question">Jakie wydarzenie powinno częściej pojawiać się w naszej szkole?</p>
+      <div id="poll-options" class="poll-options"></div>
+      <button id="vote-btn" class="button-primary" disabled>Oddaj głos</button>
+      <p class="small-note" id="poll-note">Głosowanie demonstracyjne — odpowiedzi zapisują się tylko w tej przeglądarce.</p>
+    </div>
+    <div class="quote-panel">
+      <span class="quote-mark">“</span>
+      <p>Szkoła to nie tylko lekcje. To ludzie, pomysły i historie, które warto opowiedzieć.</p>
+      <span class="quote-line"></span><small>GŁOS LICEUM · TWOJA PRZESTRZEŃ</small>
+    </div>
+  </section>
+
+  <section class="gallery-band" id="galeria">
+    <div class="wrap gallery-inner">
+      <div><p class="eyebrow">KADRY Z ŻYCIA SZKOŁY</p><h2>Widziane <em>naszymi oczami</em></h2><p class="muted">Zdjęcia i krótkie relacje z wydarzeń, projektów i codzienności liceum.</p></div>
+      <div class="gallery-tiles"><div class="tile tile-one">FOTORELACJE</div><div class="tile tile-two">NASZE PROJEKTY</div><div class="tile tile-three">SZKOLNE CHWILE</div></div>
+    </div>
+  </section>
+
+  <section class="section wrap editorial" id="redakcja">
+    <div><p class="eyebrow">DOŁĄCZ DO NAS</p><h2>Masz coś <em>do powiedzenia?</em></h2><p class="muted">Napisz artykuł, zaproponuj temat, prześlij zdjęcia lub nagraj materiał. Redakcja sprawdzi zgłoszenie przed publikacją.</p><a class="button-primary" href="https://pagescms.org/" target="_blank" rel="noreferrer">Zostań autorem <span>→</span></a></div>
+    <div class="editorial-note"><b>✳</b><h3>Twoja perspektywa ma znaczenie.</h3><p>Gazetę tworzą uczniowie — dla całej społeczności szkolnej.</p><small>WAŻNE: publikujemy wyłącznie materiały, do których autor ma prawa. Zdjęcia i nagrania rozpoznawalnych osób wymagają odpowiedniej zgody.</small></div>
+  </section>
+</main>
+
+<footer><div class="wrap footer-inner"><div class="brand footer-brand"><img src="assets/logo-xxiv-lo.jpg" alt=""><span><strong>GŁOS LICEUM</strong><small>XXIV LO w Krakowie</small></span></div><p>Internetowa gazeta społeczności szkolnej.</p><span>© <span id="year"></span> Głos Liceum</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>

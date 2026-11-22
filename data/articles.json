@@ -1,0 +1,52 @@
+[
+  {
+    "category": "ŻYCIE SZKOŁY",
+    "title": "Co dzieje się za szkolnymi drzwiami?",
+    "excerpt": "Poznaj inicjatywy, projekty i wydarzenia, które tworzą codzienność naszej społeczności.",
+    "author": "Redakcja",
+    "date": "2026-11-22",
+    "cover": "",
+    "body": "Przykładowy tekst. Zastąp go własnym materiałem redakcyjnym.",
+    "featured": true
+  },
+  {
+    "category": "GŁOS UCZNIÓW",
+    "title": "Młodzi mają głos. Czas na Twoją perspektywę.",
+    "excerpt": "Opinie, rozmowy i pomysły uczniów — miejsce na różne punkty widzenia.",
+    "author": "Redakcja",
+    "date": "2026-11-22",
+    "cover": "",
+    "body": "Przykładowy tekst. Zastąp go własnym materiałem redakcyjnym.",
+    "featured": true
+  },
+  {
+    "category": "KULTURA",
+    "title": "Książki, filmy i muzyka, które polecamy",
+    "excerpt": "Redakcyjne inspiracje na wolny czas.",
+    "author": "Redakcja",
+    "date": "2026-11-22",
+    "cover": "",
+    "body": "Przykładowy tekst. Zastąp go własnym materiałem redakcyjnym.",
+    "featured": false
+  },
+  {
+    "category": "NAUKA I TECHNOLOGIA",
+    "title": "Technologie, które zmieniają naszą codzienność",
+    "excerpt": "Uczniowskie spojrzenie na cyfrowy świat.",
+    "author": "Redakcja",
+    "date": "2026-11-22",
+    "cover": "",
+    "body": "Przykładowy tekst. Zastąp go własnym materiałem redakcyjnym.",
+    "featured": false
+  },
+  {
+    "category": "SPORT",
+    "title": "Aktywność po lekcjach — nasze pomysły",
+    "excerpt": "Sport, ruch i dobre nawyki w szkolnym rytmie.",
+    "author": "Redakcja",
+    "date": "2026-11-22",
+    "cover": "",
+    "body": "Przykładowy tekst. Zastąp go własnym materiałem redakcyjnym.",
+    "featured": false
+  }
+]
